@@ -86,7 +86,7 @@
 >
   <div class="flex-1 p-0">
     <img
-      src="../assets/img/"
+      src="../assets/img/app.jpeg"
       alt="Descrição da imagem"
       class="mb-4 w-full h-auto object-contain rounded"
     />
@@ -99,7 +99,7 @@
       >
         ➤
       </router-link>
-      App Interno cliente
+      App Agência
     </div>
   </div>
 </div>

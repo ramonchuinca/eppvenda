@@ -3,7 +3,7 @@
     <h1 class="text-3xl font-semibold mb-6 text-white">Bem-vindo ao App</h1>
 
     <img 
-      src="@/assets/img/app.jpeg" 
+      src="@/assets/img/telacliente.jpeg" 
       alt="Ilustração do Login" 
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
