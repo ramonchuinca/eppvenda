@@ -61,7 +61,7 @@
 >
   <div class="flex-1 p-0">
     <img
-      src="../assets/img/app.jpeg"
+      src="../assets/img/telacliente.jpeg"
       alt="Descrição da imagem"
       class="mb-4 w-full h-auto object-contain rounded"
     />
@@ -74,51 +74,35 @@
       >
         ➤
       </router-link>
-      App Interno
+      App Interno cliente
     </div>
   </div>
 </div>
      
       <!-- end card -->
-      <div
-        class="card bg-white dark:bg-gray-800 w-full rounded-md p-5 border dark:border-gray-700 flex"
-      >
-        <div class="p-2 max-w-sm">
-          <div
-            class="bg-red-200 rounded-full w-14 h-14 text-lg p-3 text-red-600 mx-auto"
-          >
-            <span class="">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                role="img"
-                width="30px"
-                height="30px"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 32 32"
-              >
-                <path
-                  fill="none"
-                  d="M8.007 24.93A4.996 4.996 0 0 1 13 20h6a4.996 4.996 0 0 1 4.993 4.93a11.94 11.94 0 0 1-15.986 0ZM20.5 12.5A4.5 4.5 0 1 1 16 8a4.5 4.5 0 0 1 4.5 4.5Z"
-                />
-                <path
-                  fill="currentColor"
-                  d="M26.749 24.93A13.99 13.99 0 1 0 2 16a13.899 13.899 0 0 0 3.251 8.93l-.02.017c.07.084.15.156.222.239c.09.103.187.2.28.3c.28.304.568.596.87.87c.092.084.187.162.28.242c.32.276.649.538.99.782c.044.03.084.069.128.1v-.012a13.901 13.901 0 0 0 16 0v.012c.044-.031.083-.07.128-.1c.34-.245.67-.506.99-.782c.093-.08.188-.159.28-.242c.302-.275.59-.566.87-.87c.093-.1.189-.197.28-.3c.071-.083.152-.155.222-.24ZM16 8a4.5 4.5 0 1 1-4.5 4.5A4.5 4.5 0 0 1 16 8ZM8.007 24.93A4.996 4.996 0 0 1 13 20h6a4.996 4.996 0 0 1 4.993 4.93a11.94 11.94 0 0 1-15.986 0Z"
-                />
-              </svg>
-            </span>
-          </div>
-        </div>
+           <div
 
-        <div class="block p-2 w-full">
-          <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
-            3569
-          </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">
-            Total Customers
-          </h2>
-        </div>
-      </div>
+  class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
+>
+  <div class="flex-1 p-0">
+    <img
+      src="../assets/img/"
+      alt="Descrição da imagem"
+      class="mb-4 w-full h-auto object-contain rounded"
+    />
+    
+    <div class="p-2 max-w-sm text-white flex items-center gap-2">
+      <router-link
+        to="/component/accordion"
+        class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+        title="Ir para Alert.vue"
+      >
+        ➤
+      </router-link>
+      App Interno cliente
+    </div>
+  </div>
+</div>
       <!-- end card -->
       <div
         class="card bg-white dark:bg-gray-800 w-full rounded-md p-5 border dark:border-gray-700 flex"
