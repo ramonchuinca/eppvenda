@@ -57,7 +57,7 @@
               class="w-full flex text-left rounded-md box-border p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
             >
               <span class="mr-3 text-xl"><Icon icon="bxs:dashboard" /></span>
-              <span class="w-full"> Dashboard </span>
+              <span class="w-full"> Home </span>
             </router-link>
           </div>
           <div class="item mt-3">
@@ -65,25 +65,25 @@
               <template v-slot:icon>
                 <Icon icon="gg:components" />
               </template>
-              <template v-slot:title> Components </template>
+              <template v-slot:title> Telas De Acesso </template>
               <template v-slot:content>
                 <router-link
                   to="/component/alert"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Alert
+                  tela de login
                 </router-link>
                 <router-link
                   to="/component/accordion"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Accordion
+                  segunda parte tela de login
                 </router-link>
                 <router-link
                   to="/component/badge"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Badge
+                  dentro do app
                 </router-link>
                 <router-link
                   to="/component/breadcumb"
