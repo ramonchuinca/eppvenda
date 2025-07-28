@@ -65,7 +65,7 @@
               <template v-slot:icon>
                 <Icon icon="gg:components" />
               </template>
-              <template v-slot:title> Telas De Acesso </template>
+              <template v-slot:title> Usuario Cliente </template>
               <template v-slot:content>
                 <router-link
                   to="/component/alert"
