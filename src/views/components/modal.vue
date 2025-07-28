@@ -8,11 +8,24 @@
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
 
-    <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-  Para acessar o sistema, informe seu <strong>e-mail</strong> e <strong>senha</strong> cadastrados. 
-  Esta tela foi criada para ser simples, segura e fácil de usar, garantindo uma experiência tranquila para todos os usuários.
-  Após o login, você será direcionado para uma <strong>segunda etapa de autenticação</strong>, onde confirmaremos que está tudo certo com suas informações antes de liberar o acesso completo ao sistema.
+   <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
+  A aba <strong>Plano de Contas</strong> permite organizar e estruturar todas as contas financeiras utilizadas no sistema Pen6.App, de forma categorizada e padronizada.
+  <br><br>
+  Aqui você pode cadastrar, editar ou excluir contas contábeis, agrupadas nas seguintes categorias principais:
+  <strong>Ativo</strong>, <strong>Passivo</strong> e <strong>Contas de Resultados</strong>. 
+  <br><br>
+  Cada grupo representa uma parte fundamental da estrutura financeira da empresa:
+  <ul class="list-disc list-inside mt-2">
+    <li><strong>Ativo:</strong> tudo o que a empresa possui.</li>
+    <li><strong>Passivo:</strong> tudo o que a empresa deve.</li>
+    <li><strong>Contas de Resultados:</strong> receitas e despesas que impactam o resultado do período.</li>
+  </ul>
+  <br>
+  Use o botão <strong>“+ Adicionar”</strong> para criar novas contas e personalize conforme as necessidades do seu negócio. Utilize a busca para localizar contas rapidamente.
+  <br><br>
+  Essa estrutura é essencial para gerar relatórios financeiros organizados e facilitar o controle e análise da saúde financeira da empresa.
 </p>
+
 
     <router-link
       to="/component/accordion"

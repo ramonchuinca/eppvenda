@@ -8,11 +8,16 @@
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
 
-    <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-  Para acessar o sistema, informe seu <strong>e-mail</strong> e <strong>senha</strong> cadastrados. 
-  Esta tela foi criada para ser simples, segura e fácil de usar, garantindo uma experiência tranquila para todos os usuários.
-  Após o login, você será direcionado para uma <strong>segunda etapa de autenticação</strong>, onde confirmaremos que está tudo certo com suas informações antes de liberar o acesso completo ao sistema.
+  <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
+  A tela de <strong>Tarefas - Visão Geral</strong> apresenta um panorama completo das suas atividades dentro do sistema Pen6.App. Aqui, você pode visualizar rapidamente a quantidade de tarefas <strong>em aberto</strong>, <strong>atrasadas</strong>, <strong>atribuídas a você</strong> e também as <strong>que estão próximas do vencimento</strong>.
+  <br><br>
+  Utilize os filtros para organizar as tarefas por status, como <strong>“A vencer”</strong>, <strong>“Atrasadas”</strong>, <strong>“Com prazo”</strong>, <strong>“Sem prazo”</strong> ou <strong>“Todas”</strong>. Também é possível filtrar por período: <strong>Dia</strong>, <strong>Semana</strong> ou uma visão <strong>Geral</strong>.
+  <br><br>
+  A barra de pesquisa permite que você encontre rapidamente uma tarefa específica dentro dos quadros, facilitando sua navegação e produtividade.
+  <br><br>
+  Essa seção foi desenvolvida para garantir <strong>agilidade, clareza e controle</strong> total das suas responsabilidades no dia a dia.
 </p>
+
 
     <router-link
       to="/component/dropdown"

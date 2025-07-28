@@ -8,11 +8,17 @@
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
 
-    <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-  Para acessar o sistema, informe seu <strong>e-mail</strong> e <strong>senha</strong> cadastrados. 
-  Esta tela foi criada para ser simples, segura e fácil de usar, garantindo uma experiência tranquila para todos os usuários.
-  Após o login, você será direcionado para uma <strong>segunda etapa de autenticação</strong>, onde confirmaremos que está tudo certo com suas informações antes de liberar o acesso completo ao sistema.
+   <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
+  A aba <strong>Meu Perfil</strong> permite que você personalize e mantenha suas informações sempre atualizadas dentro do sistema Pen6.App.
+  Aqui você pode <strong>editar seus dados pessoais</strong>, como nome, telefone, data de nascimento e CPF, além de incluir uma imagem de perfil para melhor identificação dentro da plataforma.
+  <br><br>
+  Também é possível preencher sua <strong>bio profissional</strong>, destacando suas habilidades ou função, utilizando uma área de texto com opções de formatação.
+  <br><br>
+  Se desejar mais segurança, você pode <strong>alterar sua senha</strong> diretamente nesta tela, garantindo total controle sobre o seu acesso ao sistema.
+  <br><br>
+  Tudo foi pensado para oferecer uma experiência intuitiva, rápida e segura, permitindo que você gerencie seus dados com facilidade.
 </p>
+
 
     <router-link
       to="/component/card"
