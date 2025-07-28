@@ -9,21 +9,21 @@
         class="flex"
       >
         <img
-          class="w-8 mt-1"
-          src="@/assets/logo/logo.svg"
+          class="mt-1"
+          src="@/assets/logo/banner-shape-1-1.png"
           alt="logo windzo"
         />
         <h2
           class="text-2xl font-normal ml-3 mt-2 text-gray-800 dark:text-gray-200"
           translate="no"
         >
-          Windzo<span class="text-primary">.</span>
+          Manual do Usuario do App Pen6<span class="text-primary">.</span>
         </h2>
       </router-link>
       <div
         class="bg-gray-700 absolute mt-3 dark:block hidden rounded-md py-1 px-2 text-xs text-gray-200"
       >
-        Dark mode
+        APP PEN6
       </div>
       <button
         class="lg:hidden block dark:text-gray-400 float-right -mt-7"
@@ -71,7 +71,7 @@
                   to="/component/alert"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  tela de login
+                  Cliente tela de login
                 </router-link>
                 <router-link
                   to="/component/accordion"
@@ -83,37 +83,37 @@
                   to="/component/badge"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  dentro do app
+                  DashBord cliente
                 </router-link>
                 <router-link
                   to="/component/breadcumb"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Breadcumb
+                  Cliente Drive
                 </router-link>
                 <router-link
                   to="/component/button"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Button
+                  Cliente Perfil
                 </router-link>
                 <router-link
                   to="/component/card"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Card
+                  Cliente tarefas
                 </router-link>
                 <router-link
                   to="/component/dropdown"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Dropdown
+                  Cliente Planos de Midia
                 </router-link>
                 <router-link
                   to="/component/modal"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Modal
+                  Cliente Plano de Contas
                 </router-link>
               </template>
             </menu-accordion>
