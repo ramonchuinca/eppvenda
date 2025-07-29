@@ -74,7 +74,7 @@
       >
         ➤
       </router-link>
-      App Interno cliente
+      Tela Segundo Fator
     </div>
   </div>
 </div>
