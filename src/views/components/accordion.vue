@@ -31,7 +31,7 @@ import AppAccordion from "../../components/AppAccordion.vue";
 import MenuAccordion from "../../components/MenuAccordion.vue";
 
 // Importa a imagem para o bundler entender
-import bannerImage from '../../assets/img/tela do segundo fator.jpeg';
+import bannerImage from '../../assets/img/fator-2.jpeg';
 
 export default {
   components: {

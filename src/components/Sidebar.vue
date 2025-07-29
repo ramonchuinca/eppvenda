@@ -17,7 +17,7 @@
           class="text-2xl font-normal ml-3 mt-2 text-gray-800 dark:text-gray-200"
           translate="no"
         >
-          Manual do Usuario do App Pen6<span class="text-primary">.</span>
+          Manual<span class="text-primary">.</span>
         </h2>
       </router-link>
       <div

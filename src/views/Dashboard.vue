@@ -61,7 +61,7 @@
 >
   <div class="flex-1 p-0">
     <img
-      src="../assets/img/telacliente.jpeg"
+      src="../assets/img/fator-2.jpeg"
       alt="Descrição da imagem"
       class="mb-4 w-full h-auto object-contain rounded"
     />
@@ -86,59 +86,47 @@
 >
   <div class="flex-1 p-0">
     <img
-      src="../assets/img/app.jpeg"
+      src="../assets/img/teladashbord.jpeg"
       alt="Descrição da imagem"
       class="mb-4 w-full h-auto object-contain rounded"
     />
     
     <div class="p-2 max-w-sm text-white flex items-center gap-2">
       <router-link
-        to="/component/accordion"
+        to="/component/badge"
         class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
         title="Ir para Alert.vue"
       >
         ➤
       </router-link>
-      App Agência
+      DashBord Cliente
     </div>
   </div>
 </div>
-      <!-- end card -->
-      <div
-        class="card bg-white dark:bg-gray-800 w-full rounded-md p-5 border dark:border-gray-700 flex"
-      >
-        <div class="p-2 max-w-sm">
-          <div
-            class="bg-purple-200 rounded-full w-14 h-14 text-lg p-3 text-purple-600 mx-auto"
-          >
-            <span class="">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                role="img"
-                width="30px"
-                height="30px"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 16 16"
-              >
-                <g fill="currentColor">
-                  <path d="M15 13v1H1.5l-.5-.5V0h1v13h13Z" />
-                  <path
-                    d="M13 3.207L7.854 8.354h-.708L5.5 6.707l-3.646 3.647l-.708-.708l4-4h.708L7.5 7.293l5.146-5.147h.707l2 2l-.707.708L13 3.207Z"
-                  />
-                </g>
-              </svg>
-            </span>
-          </div>
-        </div>
+        <!-- end card -->
+           <div
 
-        <div class="block p-2 w-full">
-          <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
-            7230
-          </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Visit</h2>
-        </div>
-      </div>
+  class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
+>
+  <div class="flex-1 p-0">
+    <img
+      src="../assets/img/imagemdrive.jpeg"
+      alt="Descrição da imagem"
+      class="mb-4 w-full h-auto object-contain rounded"
+    />
+    
+    <div class="p-2 max-w-sm text-white flex items-center gap-2">
+      <router-link
+        to="/component/breadcumb"
+        class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+        title="Ir para Alert.vue"
+      >
+        ➤
+      </router-link>
+      Drive
+    </div>
+  </div>
+</div>
       <!-- end card -->
     </div>
     <!-- end wrapper card -->
@@ -210,9 +198,9 @@
       >
         <div class="">
           <h2 class="text-lg font-semibold dark:text-gray-200">
-            PARTNER SALES
+            Funcionalidades Do App
           </h2>
-          <p class="text-gray-400">This is list if your partner online.</p>
+          <p class="text-gray-400">Funcionalidades Principais.</p>
         </div>
         <perfect-scrollbar class="divide-y h-96 mt-5 dark:divide-gray-700">
           <div class="p-3 w-full">
@@ -225,9 +213,9 @@
                 />
               </div>
               <div class="mt-1">
-                <h2 class="dark:text-gray-200">Elizabeth Begum</h2>
+                <h2 class="dark:text-gray-200">💬 Chat</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  Active now
+                  Converse diretamente com a equipe responsável pelos seus projetos. O chat integrado permite comunicação rápida, centralizada e segura, eliminando a necessidade de múltiplos canais externos.
                 </p>
               </div>
             </div>
@@ -242,9 +230,9 @@
                 />
               </div>
               <div class="mt-1">
-                <h2 class="dark:text-gray-200">Ethan Roger</h2>
+                <h2 class="dark:text-gray-200">📌 Tarefas</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  Active now
+                  Gerencie suas atividades de forma prática e organizada. Acompanhe tarefas pendentes, atrasadas ou concluídas, utilize filtros para visualizar apenas o que é relevante e mantenha total controle do que precisa ser feito no dia a dia.
                 </p>
               </div>
             </div>
@@ -259,9 +247,9 @@
                 />
               </div>
               <div class="mt-1">
-                <h2 class="dark:text-gray-200">Tobi Ferreira</h2>
+                <h2 class="dark:text-gray-200">✅ Aprovação de Mídia</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  last online 2 hours ago
+                  Receba, visualize e aprove materiais de mídia com agilidade. Essa funcionalidade garante mais transparência e rapidez no fluxo de aprovação, facilitando a comunicação entre clientes e a equipe de marketing.
                 </p>
               </div>
             </div>
@@ -276,9 +264,9 @@
                 />
               </div>
               <div class="mt-1">
-                <h2 class="dark:text-gray-200">Taylor neal</h2>
+                <h2 class="dark:text-gray-200">📂 Drive</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  last online 2 minutes ago
+                  Armazene, organize e acesse todos os arquivos relacionados aos seus projetos em um só lugar. Com o Drive integrado, você tem acesso rápido a documentos, imagens e pastas de forma simples e segura.
                 </p>
               </div>
             </div>
@@ -293,9 +281,9 @@
                 />
               </div>
               <div class="mt-1">
-                <h2 class="dark:text-gray-200">Bruno Barron</h2>
+                <h2 class="dark:text-gray-200">💰 Faturamento</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  last online 2 hours ago
+                  Tenha controle completo sobre a parte financeira dos seus projetos. Visualize relatórios de faturamento, acompanhe faturas emitidas e consulte faturas canceladas de forma simples e transparente.
                 </p>
               </div>
             </div>
