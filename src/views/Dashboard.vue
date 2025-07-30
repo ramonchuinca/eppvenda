@@ -6,18 +6,18 @@
         class="lg:flex grid-cols-1 lg:space-y-0 space-y-3 gap-5 justify-between"
       >
         <div>
-          <p class="uppercase text-xs text-gray-700 font-semibold">visualizações</p>
+          <p class="uppercase text-xs text-gray-700 font-semibold">
+            visualizações
+          </p>
           <h1 class="text-2xl text-gray-900 dark:text-gray-200 font-medium">
             Bem Vindo ao App
           </h1>
         </div>
         <div class="flex gap-2">
-        
           <button
             class="bg-primary border flex gap-2 text-white hover:bg-primary/80 dark:border-gray-700 rounded py-3 px-5"
           >
             <span class="icon text-2xl"><Icon icon="ic:twotone-plus" /></span>
-           
           </button>
         </div>
       </div>
@@ -28,105 +28,99 @@
       class="wrapper-card grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 gap-2 mt-5"
     >
       <!-- card  -->
-   <div
-
-  class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
->
-  <div class="flex-1 p-0">
-    <img
-      src="../assets/img/teste-1.jpeg"
-      alt="Descrição da imagem"
-      class="mb-4 w-full h-auto object-contain rounded"
-    />
-    
-    <div class="p-2 max-w-sm text-white flex items-center gap-2">
-      <router-link
-        to="/component/alert"
-        class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
-        title="Ir para Alert.vue"
+      <div
+        class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
       >
-        ➤
-      </router-link>
-      Tela de Login
-    </div>
-  </div>
-</div>
+        <div class="flex-1 p-0">
+          <img
+            src="../assets/img/teste-1.jpeg"
+            alt="Descrição da imagem"
+            class="mb-4 w-full h-auto object-contain rounded"
+          />
 
-
+          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+            <router-link
+              to="/component/alert"
+              class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+              title="Ir para Alert.vue"
+            >
+              ➤
+            </router-link>
+            Tela de Login
+          </div>
+        </div>
+      </div>
 
       <!-- end card -->
-       <div
-
-  class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
->
-  <div class="flex-1 p-0">
-    <img
-      src="../assets/img/fator-2.jpeg"
-      alt="Descrição da imagem"
-      class="mb-4 w-full h-auto object-contain rounded"
-    />
-    
-    <div class="p-2 max-w-sm text-white flex items-center gap-2">
-      <router-link
-        to="/component/accordion"
-        class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
-        title="Ir para Alert.vue"
+      <div
+        class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
       >
-        ➤
-      </router-link>
-      Tela Segundo Fator
-    </div>
-  </div>
-</div>
-     
+        <div class="flex-1 p-0">
+          <img
+            src="../assets/img/fator-2.jpeg"
+            alt="Descrição da imagem"
+            class="mb-4 w-full h-auto object-contain rounded"
+          />
+
+          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+            <router-link
+              to="/component/accordion"
+              class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+              title="Ir para Alert.vue"
+            >
+              ➤
+            </router-link>
+            Tela Segundo Fator
+          </div>
+        </div>
+      </div>
+
       <!-- end card -->
-           <div
-
-  class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
->
-  <div class="flex-1 p-0">
-    <img
-      src="../assets/img/teladashbord.jpeg"
-      alt="Descrição da imagem"
-      class="mb-4 w-full h-auto object-contain rounded"
-    />
-    
-    <div class="p-2 max-w-sm text-white flex items-center gap-2">
-      <router-link
-        to="/component/badge"
-        class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
-        title="Ir para Alert.vue"
+      <div
+        class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
       >
-        ➤
-      </router-link>
-      DashBord Cliente
-    </div>
-  </div>
-</div>
-        <!-- end card -->
-           <div
+        <div class="flex-1 p-0">
+          <img
+            src="../assets/img/teladashbord.jpeg"
+            alt="Descrição da imagem"
+            class="mb-4 w-full h-auto object-contain rounded"
+          />
 
-  class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
->
-  <div class="flex-1 p-0">
-    <img
-      src="../assets/img/imagemdrive.jpeg"
-      alt="Descrição da imagem"
-      class="mb-4 w-full h-auto object-contain rounded"
-    />
-    
-    <div class="p-2 max-w-sm text-white flex items-center gap-2">
-      <router-link
-        to="/component/breadcumb"
-        class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
-        title="Ir para Alert.vue"
+          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+            <router-link
+              to="/component/badge"
+              class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+              title="Ir para Alert.vue"
+            >
+              ➤
+            </router-link>
+            DashBord Cliente
+          </div>
+        </div>
+      </div>
+      <!-- end card -->
+      <div
+        class="card bg-white dark:bg-gray-800 rounded-md p-5 border dark:border-gray-700 flex w-full max-w-3xl"
       >
-        ➤
-      </router-link>
-      Drive
-    </div>
-  </div>
-</div>
+        <div class="flex-1 p-0">
+          <img
+            src="../assets/img/imagemdrive.jpeg"
+            alt="Descrição da imagem"
+            class="mb-4 w-full h-auto object-contain rounded"
+          />
+
+          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+            <router-link
+              to="/component/breadcumb"
+              class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+              title="Ir para Alert.vue"
+            >
+              ➤
+            </router-link>
+            Drive
+          </div>
+        </div>
+      </div>
       <!-- end card -->
     </div>
     <!-- end wrapper card -->
@@ -137,18 +131,18 @@
         <div class="p-5 flex justify-between">
           <div>
             <h2 class="font-medium text-sm text-gray-800 dark:text-gray-200">
-              SALES
+              DashBord
             </h2>
-            <h1 class="font-semibold text-4xl text-gray-800 dark:text-gray-200">
+            <!-- <h1 class="font-semibold text-4xl text-gray-800 dark:text-gray-200">
               72%
-            </h1>
+            </h1> -->
 
             <p class="text-gray-400 font-lexend font-normal">
-              your sales chart per-years
+              DashBord Externo
             </p>
           </div>
 
-          <div class="flex gap-5">
+          <!-- <div class="flex gap-5">
             <span class="">
               <h2 class="text-red-500 flex">
                 <span class="mr-2"> 15.9% </span
@@ -165,34 +159,39 @@
                 </span>
               </h2>
             </span>
-          </div>
+          </div> -->
         </div>
 
-        <apexchart
-          width="100%"
-          height="260"
-          type="area"
-          :options="optionsArea"
-          :series="seriesArea"
-          :sparkline="{
-            enabled: true,
-          }"
-        ></apexchart>
+        <img
+          src="../assets/img/prestador.png"
+          alt="Descrição da imagem"
+          class="mb-4 w-full h-auto object-contain rounded"
+        />
+
         <br />
         <hr />
+
         <div class="wrapper-button p-5 flex justify-between mt-3">
-          <select
+          <router-link
+            to="error/blank"
+            class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+            title="Ir para Alert.vue"
+          >
+            ➤
+          </router-link>
+          <!-- <select
             name=""
             id=""
             class="dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700 border max-w-lg px-4 py-3 block rounded-md text-gray-500 dark:text-gray-400"
           >
-            <option value="">Last 7 years</option>
-          </select>
-          <button class="uppercase border-b border-red-600 text-red-600">
-            Sales Report
-          </button>
+            <option value=""></option>
+          </select> -->
+          <!-- <button class="uppercase border-b border-red-600 text-red-600">
+            
+          </button> -->
         </div>
       </div>
+
       <div
         class="bg-white dark:bg-gray-800 p-5 lg:mt-0 mt-4 lg:w-2/4 border dark:border-gray-700 rounded-md w-full"
       >
@@ -215,7 +214,10 @@
               <div class="mt-1">
                 <h2 class="dark:text-gray-200">💬 Chat</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  Converse diretamente com a equipe responsável pelos seus projetos. O chat integrado permite comunicação rápida, centralizada e segura, eliminando a necessidade de múltiplos canais externos.
+                  Converse diretamente com a equipe responsável pelos seus
+                  projetos. O chat integrado permite comunicação rápida,
+                  centralizada e segura, eliminando a necessidade de múltiplos
+                  canais externos.
                 </p>
               </div>
             </div>
@@ -232,7 +234,10 @@
               <div class="mt-1">
                 <h2 class="dark:text-gray-200">📌 Tarefas</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  Gerencie suas atividades de forma prática e organizada. Acompanhe tarefas pendentes, atrasadas ou concluídas, utilize filtros para visualizar apenas o que é relevante e mantenha total controle do que precisa ser feito no dia a dia.
+                  Gerencie suas atividades de forma prática e organizada.
+                  Acompanhe tarefas pendentes, atrasadas ou concluídas, utilize
+                  filtros para visualizar apenas o que é relevante e mantenha
+                  total controle do que precisa ser feito no dia a dia.
                 </p>
               </div>
             </div>
@@ -249,7 +254,10 @@
               <div class="mt-1">
                 <h2 class="dark:text-gray-200">✅ Aprovação de Mídia</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  Receba, visualize e aprove materiais de mídia com agilidade. Essa funcionalidade garante mais transparência e rapidez no fluxo de aprovação, facilitando a comunicação entre clientes e a equipe de marketing.
+                  Receba, visualize e aprove materiais de mídia com agilidade.
+                  Essa funcionalidade garante mais transparência e rapidez no
+                  fluxo de aprovação, facilitando a comunicação entre clientes e
+                  a equipe de marketing.
                 </p>
               </div>
             </div>
@@ -266,7 +274,10 @@
               <div class="mt-1">
                 <h2 class="dark:text-gray-200">📂 Drive</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  Armazene, organize e acesse todos os arquivos relacionados aos seus projetos em um só lugar. Com o Drive integrado, você tem acesso rápido a documentos, imagens e pastas de forma simples e segura.
+                  Armazene, organize e acesse todos os arquivos relacionados aos
+                  seus projetos em um só lugar. Com o Drive integrado, você tem
+                  acesso rápido a documentos, imagens e pastas de forma simples
+                  e segura.
                 </p>
               </div>
             </div>
@@ -283,7 +294,10 @@
               <div class="mt-1">
                 <h2 class="dark:text-gray-200">💰 Faturamento</h2>
                 <p class="text-sm dark:text-gray-500 text-gray-400">
-                  Tenha controle completo sobre a parte financeira dos seus projetos. Visualize relatórios de faturamento, acompanhe faturas emitidas e consulte faturas canceladas de forma simples e transparente.
+                  Tenha controle completo sobre a parte financeira dos seus
+                  projetos. Visualize relatórios de faturamento, acompanhe
+                  faturas emitidas e consulte faturas canceladas de forma
+                  simples e transparente.
                 </p>
               </div>
             </div>
@@ -297,42 +311,43 @@
       >
         <div class="head p-5">
           <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
-            1,780
+            teste
           </h2>
           <p class="text-gray-400 font-lexend font-normal">
             New products this week
           </p>
           <span class="float-right">
             <h2 class="text-green-500 -mt-12 flex">
-              <span class="mr-2"> 27.9% </span
-              ><span>
+              <!-- <span class="mr-2"> 27.9% </span -->
+              <!-- ><span>
                 <Icon icon="akar-icons:arrow-up" />
-              </span>
+              </span> -->
             </h2>
           </span>
         </div>
         <div class="wrapper-chart mt-5 pr-2 pl-2">
-          <apexchart
-            width="100%"
-            height="380"
-            type="bar"
-            :options="optionsBar"
-            :series="seriesBar"
-          ></apexchart>
+          <img
+            src="@/assets/img/prestador.png"
+            alt="Descrição da imagem"
+            class="mb-4 w-full h-auto object-contain rounded"
+          />
+
+          <p style="color: aliceblue; font-weight: bold">
+            Drive acesso Externo
+          </p>
+
           <br />
           <hr />
+
           <div class="footer p-5">
             <div class="wrapper-button flex justify-between mt-3">
-              <select
-                name=""
-                id=""
-                class="dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700 border max-w-lg px-4 py-3 block rounded-md text-gray-500 dark:text-gray-400"
+              <router-link
+                to="/component/breadcumb"
+                class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+                title="Ir para Alert.vue"
               >
-                <option value="">Last 7 days</option>
-              </select>
-              <button class="uppercase border-b border-red-600 text-red-600">
-                Product Report
-              </button>
+                ➤
+              </router-link>
             </div>
           </div>
         </div>
@@ -342,41 +357,35 @@
       >
         <div class="head p-5">
           <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
-            5,355
+            teste-1
           </h2>
           <p class="text-gray-400 font-lexend font-normal">Visitor this week</p>
 
           <span class="float-right">
             <h2 class="text-green-500 -mt-12 flex">
-              <span class="mr-2"> 47.9% </span
-              ><span>
-                <Icon icon="akar-icons:arrow-up" />
-              </span>
+              <span> </span>
             </h2>
           </span>
         </div>
         <div class="wrapper-chart mt-5">
-          <apexchart
-            width="100%"
-            height="380"
-            type="area"
-            :options="optionsVisitor"
-            :series="seriesVisitor"
-          ></apexchart>
+          <img
+            src="../assets/img/prestador-2.png"
+            alt="Descrição da imagem"
+            class="mb-4 w-full h-auto object-contain rounded"
+          />
+          <p style="color: aliceblue; font-weight: bold">Perfil Externo</p>
           <br />
           <hr />
+
           <div class="footer p-5">
             <div class="wrapper-button flex justify-between mt-3">
-              <select
-                name=""
-                id=""
-                class="dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700 border max-w-lg px-4 py-3 block rounded-md text-gray-500 dark:text-gray-400"
+              <router-link
+                to="/component/breadcumb"
+                class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+                title="Ir para Alert.vue"
               >
-                <option value="">Last 7 days</option>
-              </select>
-              <button class="uppercase border-b border-red-600 text-red-600">
-                Vistor Report
-              </button>
+                ➤
+              </router-link>
             </div>
           </div>
         </div>
@@ -386,37 +395,30 @@
       >
         <div class="head p-5">
           <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
-            475
+            teste-2
           </h2>
-          <p class="text-gray-400 font-lexend font-normal">
-            User signups this week
-          </p>
+          <p class="text-gray-400 font-lexend font-normal">User signups this</p>
         </div>
 
         <div class="wrapper-chart mt-5">
-          <apexchart
-            width="100%"
-            height="380"
-            type="pie"
-            :options="optionsDonut"
-            :series="seriesDonut"
-          ></apexchart>
-          <div class="p-3"></div>
+          <img
+            src="../assets/img/teladrive2.jpeg"
+            alt="Descrição da imagem"
+            class="mb-4 w-full h-auto object-contain rounded"
+          />
+          <p style="color: aliceblue; font-weight: bold">Drive Externo</p>
           <br />
           <hr />
+
           <div class="footer p-5">
             <div class="wrapper-button flex justify-between mt-3">
-              <select
-                name=""
-                id=""
-                class="dark:bg-gray-800 dark:hover:bg-gray-700 border dark:border-gray-700 max-w-lg px-4 py-3 block rounded-md text-gray-500 dark:text-gray-400"
+              <router-link
+                to="/component/breadcumb"
+                class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+                title="Ir para Alert.vue"
               >
-                <option value="">Last 7 years</option>
-              </select>
-
-              <button class="uppercase border-b border-red-600 text-red-600">
-                User Report
-              </button>
+                ➤
+              </router-link>
             </div>
           </div>
         </div>
@@ -439,30 +441,10 @@
             class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
           >
             <tr>
-              <th
-                scope="col"
-                class="uppercase px-6 py-3"
-              >
-                Transaction
-              </th>
-              <th
-                scope="col"
-                class="uppercase px-6 py-3"
-              >
-                Date & Time
-              </th>
-              <th
-                scope="col"
-                class="uppercase px-6 py-3"
-              >
-                Amount
-              </th>
-              <th
-                scope="col"
-                class="uppercase px-6 py-3"
-              >
-                Status
-              </th>
+              <th scope="col" class="uppercase px-6 py-3">Transaction</th>
+              <th scope="col" class="uppercase px-6 py-3">Date & Time</th>
+              <th scope="col" class="uppercase px-6 py-3">Amount</th>
+              <th scope="col" class="uppercase px-6 py-3">Status</th>
             </tr>
           </thead>
           <tbody>
@@ -521,196 +503,196 @@
 </template>
 
 <script>
-  // @ is an alias to /src
-  import { Icon } from "@iconify/vue";
+// @ is an alias to /src
+import { Icon } from "@iconify/vue";
 
-  export default {
-    name: "Dashboard",
-    data() {
-      return {
-        // for more guide apexchart.js
-        // https://apexcharts.com/docs/chart-types/line-chart/
+export default {
+  name: "Dashboard",
+  data() {
+    return {
+      // for more guide apexchart.js
+      // https://apexcharts.com/docs/chart-types/line-chart/
 
-        // chart data area
-        optionsArea: {
-          xaxis: {
-            categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
-          },
-          fontFamily: "Segoe UI, sans-serif",
-          stroke: {
-            curve: "straight",
-          },
-          chart: {
-            toolbar: {
-              show: true,
-            },
-            zoom: {
-              enabled: false,
-            },
-            sparkline: {
-              enabled: true,
-            },
-          },
-          markers: {
-            size: 0,
-          },
-          yaxis: {
-            show: false,
-          },
-          fill: {
-            type: "gradient",
-            gradient: {
-              shadeIntensity: 0,
-              opacityFrom: 0.2,
-              opacityTo: 0.5,
-              stops: [0, 90, 100],
-            },
-          },
+      // chart data area
+      optionsArea: {
+        xaxis: {
+          categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
         },
-
+        fontFamily: "Segoe UI, sans-serif",
+        stroke: {
+          curve: "straight",
+        },
         chart: {
-          fontFamily: "lexend, sans-serif",
-        },
-
-        seriesArea: [
-          {
-            name: "Revenue",
-            data: [30, 40, 45, 50, 49, 60, 70, 91],
+          toolbar: {
+            show: true,
           },
-          {
-            name: "Revenue (Previous period)",
-            data: [20, 34, 45, 55, 79, 87, 90, 98],
-          },
-        ],
-        optionsBar: {
-          chart: {
-            toolbar: {
-              show: false,
-            },
-            zoom: {
-              enabled: false,
-            },
-            sparkline: {
-              enabled: true,
-            },
-          },
-          legend: {
-            show: false,
-          },
-          xaxis: {
-            show: false,
-          },
-          yaxis: {
-            show: false,
-          },
-          colors: ["#4f46e5", "#DC2626"],
-          dataLabels: {
+          zoom: {
             enabled: false,
           },
-          stroke: {
-            curve: "straight",
+          sparkline: {
+            enabled: true,
           },
         },
+        markers: {
+          size: 0,
+        },
+        yaxis: {
+          show: false,
+        },
+        fill: {
+          type: "gradient",
+          gradient: {
+            shadeIntensity: 0,
+            opacityFrom: 0.2,
+            opacityTo: 0.5,
+            stops: [0, 90, 100],
+          },
+        },
+      },
 
-        seriesBar: [
-          {
-            name: "Product 1",
-            data: [30, 40, 45, 50, 49, 60, 70, 91],
-          },
-          {
-            name: "Product 2",
-            data: [20, 34, 45, 55, 79, 87, 90, 98],
-          },
-        ],
-        optionsVisitor: {
-          chart: {
-            toolbar: {
-              show: false,
-            },
-            zoom: {
-              enabled: false,
-            },
-            sparkline: {
-              enabled: true,
-            },
-          },
-          legend: {
+      chart: {
+        fontFamily: "lexend, sans-serif",
+      },
+
+      seriesArea: [
+        {
+          name: "Revenue",
+          data: [30, 40, 45, 50, 49, 60, 70, 91],
+        },
+        {
+          name: "Revenue (Previous period)",
+          data: [20, 34, 45, 55, 79, 87, 90, 98],
+        },
+      ],
+      optionsBar: {
+        chart: {
+          toolbar: {
             show: false,
           },
-          xaxis: {
-            show: false,
-          },
-          yaxis: {
-            show: false,
-          },
-          colors: ["#4f46e5"],
-          dataLabels: {
+          zoom: {
             enabled: false,
           },
-          fill: {
-            type: "gradient",
-            gradient: {
-              shadeIntensity: 0,
-              opacityFrom: 0,
-              opacityTo: 0.3,
-              stops: [0, 90, 100],
-            },
-          },
-          stroke: {
-            curve: "smooth",
+          sparkline: {
+            enabled: true,
           },
         },
+        legend: {
+          show: false,
+        },
+        xaxis: {
+          show: false,
+        },
+        yaxis: {
+          show: false,
+        },
+        colors: ["#4f46e5", "#DC2626"],
+        dataLabels: {
+          enabled: false,
+        },
+        stroke: {
+          curve: "straight",
+        },
+      },
 
-        seriesVisitor: [
-          {
-            name: "Visitor ",
-            data: [30, 40, 45, 50, 49, 60, 70, 91],
+      seriesBar: [
+        {
+          name: "Product 1",
+          data: [30, 40, 45, 50, 49, 60, 70, 91],
+        },
+        {
+          name: "Product 2",
+          data: [20, 34, 45, 55, 79, 87, 90, 98],
+        },
+      ],
+      optionsVisitor: {
+        chart: {
+          toolbar: {
+            show: false,
           },
-        ],
-        optionsDonut: {
-          chart: {
-            type: "donut",
-          },
-          legend: false,
-          dataLabels: {
+          zoom: {
             enabled: false,
           },
-          labels: ["admin", "SuperAdmin", "User", "Costumer"],
+          sparkline: {
+            enabled: true,
+          },
         },
+        legend: {
+          show: false,
+        },
+        xaxis: {
+          show: false,
+        },
+        yaxis: {
+          show: false,
+        },
+        colors: ["#4f46e5"],
+        dataLabels: {
+          enabled: false,
+        },
+        fill: {
+          type: "gradient",
+          gradient: {
+            shadeIntensity: 0,
+            opacityFrom: 0,
+            opacityTo: 0.3,
+            stops: [0, 90, 100],
+          },
+        },
+        stroke: {
+          curve: "smooth",
+        },
+      },
 
-        seriesDonut: [20, 15, 63, 83],
-        tableTransaction: [
-          {
-            transaction: "Payment from Ethan Roger",
-            datetime: "Apr 22, 2022",
-            amount: "Rp.450.000",
-            statusTransaction: "completed",
-          },
-          {
-            transaction: "Payment from Taylor neal",
-            datetime: "May 2, 2022",
-            amount: "Rp.250.000",
-            statusTransaction: "completed",
-          },
-          {
-            transaction: "Payment from Tobi Ferreira",
-            datetime: "May 5, 2022",
-            amount: "Rp.150.000",
-            statusTransaction: "progress",
-          },
-          {
-            transaction: "Payment failed from #046577",
-            datetime: "May 5, 2022",
-            amount: "Rp.180.000",
-            statusTransaction: "cancelled",
-          },
-        ],
-      };
-      // end chart data line
-    },
-    components: {
-      Icon,
-    },
-    mounted() {},
-  };
+      seriesVisitor: [
+        {
+          name: "Visitor ",
+          data: [30, 40, 45, 50, 49, 60, 70, 91],
+        },
+      ],
+      optionsDonut: {
+        chart: {
+          type: "donut",
+        },
+        legend: false,
+        dataLabels: {
+          enabled: false,
+        },
+        labels: ["admin", "SuperAdmin", "User", "Costumer"],
+      },
+
+      seriesDonut: [20, 15, 63, 83],
+      tableTransaction: [
+        {
+          transaction: "Payment from Ethan Roger",
+          datetime: "Apr 22, 2022",
+          amount: "Rp.450.000",
+          statusTransaction: "completed",
+        },
+        {
+          transaction: "Payment from Taylor neal",
+          datetime: "May 2, 2022",
+          amount: "Rp.250.000",
+          statusTransaction: "completed",
+        },
+        {
+          transaction: "Payment from Tobi Ferreira",
+          datetime: "May 5, 2022",
+          amount: "Rp.150.000",
+          statusTransaction: "progress",
+        },
+        {
+          transaction: "Payment failed from #046577",
+          datetime: "May 5, 2022",
+          amount: "Rp.180.000",
+          statusTransaction: "cancelled",
+        },
+      ],
+    };
+    // end chart data line
+  },
+  components: {
+    Icon,
+  },
+  mounted() {},
+};
 </script>

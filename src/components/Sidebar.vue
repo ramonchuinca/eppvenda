@@ -9,7 +9,7 @@
         class="flex"
       >
         <img
-          class="mt-1"
+          class="rounded-full mt-1 mr-4 w-20 h-20 p-1 ring-1 ring-gray-300 dark:ring-gray-500"
           src="@/assets/logo/banner-shape-1-1.png"
           alt="logo windzo"
         />

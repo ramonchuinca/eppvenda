@@ -148,15 +148,15 @@
           <div class="user-avatar flex p-1 cursor-pointer rounded-md">
             <div>
               <img
-                src="../assets/img/user.jpg"
+                src="@/assets/logo/banner-shape-1-1.png"
                 class="rounded-full mr-4 w-10 h-10 p-1 ring-1 ring-gray-300 dark:ring-gray-500"
                 alt=""
               />
             </div>
             <div class="text-left lg:block md:block hidden">
-              <h2 class="dark:text-white text-gray-800">Hi, Sahrul</h2>
+              <h2 class="dark:text-white text-gray-800">Bem Vindo</h2>
               <p class="text-xs text-gray-400 dark:text-gray-500">
-                Frontend Developer
+                Manual Pen6-App
               </p>
             </div>
             <!-- <span class="text-md mt-4 text-gray-300"
