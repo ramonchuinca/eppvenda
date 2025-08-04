@@ -59,7 +59,26 @@
               <span class="mr-3 text-xl"><Icon icon="bxs:dashboard" /></span>
               <span class="w-full"> Home </span>
             </router-link>
+            <router-link
+              to="/component/alert"
+              class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+            >
+              Cliente tela de login
+            </router-link>
+            <router-link
+              to="/component/accordion"
+              class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+            >
+              segunda parte tela de login
+            </router-link>
+
+ oi
+
           </div>
+
+
+
+
           <div class="item mt-3">
             <menu-accordion>
               <template v-slot:icon>
@@ -68,28 +87,16 @@
               <template v-slot:title> Usuario Cliente </template>
               <template v-slot:content>
                 <router-link
-                  to="/component/alert"
-                  class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
-                >
-                  Cliente tela de login
-                </router-link>
-                <router-link
-                  to="/component/accordion"
-                  class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
-                >
-                  segunda parte tela de login
-                </router-link>
-                <router-link
                   to="/component/badge"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  DashBord cliente
-                </router-link>
                 <router-link
                   to="/component/breadcumb"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                  Cliente Drive
+                 Drive Para Ambos Os Usos
+                </router-link>
+                  DashBord cliente
                 </router-link>
                 <router-link
                   to="/component/button"
@@ -118,7 +125,8 @@
               </template>
             </menu-accordion>
           </div>
-          <div class="item mt-3">
+
+          <!-- <div class="item mt-3">  < retirado mais pode ser usado novamente >
             <menu-accordion>
               <template v-slot:icon>
                 <Icon icon="ri:layout-2-fill" />
@@ -128,46 +136,46 @@
                 <p>Coming soon.</p>
               </template>
             </menu-accordion>
-          </div>
+          </div> -->
           <div class="item mt-3">
             <menu-accordion>
               <template v-slot:icon>
                 <Icon icon="ri:pages-fill" />
               </template>
-              <template v-slot:title> Pages </template>
+              <template v-slot:title> Usuario Externo </template>
               <template v-slot:content>
                 <div class="">
                   <router-link
                     to="/blank"
                     class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                   >
-                    Blank Page
+                    DashBord Externo
                   </router-link>
                   <menu-accordion>
-                    <template v-slot:title> Error Page </template>
+                    <template v-slot:title>Perfil Acesso Externo</template>
                     <template v-slot:content>
                       <router-link
                         to="/404page"
                         class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                       >
-                        404 page
+                        DashBord acesso Externo
                       </router-link>
                       <router-link
                         to="/500"
                         class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                       >
-                        500 page
+                        Perfil Aceso Externo
                       </router-link>
                       <router-link
                         to="/maintenance"
                         class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                       >
-                        Maintenance page
+                        Drive Externo
                       </router-link>
                     </template>
                   </menu-accordion>
-                  <menu-accordion>
-                    <template v-slot:title> Authentication </template>
+                  <!-- <menu-accordion>
+                    <template v-slot:title> Drive Externo </template>
                     <template v-slot:content>
                       <router-link
                         to="/auth/login"
@@ -188,14 +196,14 @@
                         Forgot Password
                       </router-link>
                     </template>
-                  </menu-accordion>
+                  </menu-accordion> -->
                 </div>
               </template>
             </menu-accordion>
           </div>
         </div>
       </div>
-      <div class="pb-5">
+      <!-- <div class="pb-5">
         <p class="font-medium text-gray-400 mt-4 dark:text-gray-400">
           UI Form & Tables
         </p>
@@ -223,7 +231,7 @@
             </button>
           </router-link>
         </div>
-      </div>
+      </div> -->
     </div>
   </nav>
 </template>
