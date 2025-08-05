@@ -162,54 +162,36 @@
           </div> -->
         </div>
 
-     <img
-  src="../assets/img/prestador.png"
-  alt="Descrição da imagem"
-  class="mb-4 w-full h-auto object-contain rounded"
-/>
+        <img
+          src="../assets/img/prestador.png"
+          alt="Descrição da imagem"
+          class="mb-4 w-full h-auto object-contain rounded"
+        />
 
-<div class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed space-y-3">
-  <h2 class="text-lg font-semibold flex items-center gap-2">
-    👋 Bem-vindo ao Painel de Prestador
-  </h2>
-  <p>Este é o seu espaço para acessar e organizar tudo de forma prática.</p>
-
-  <div>
-    <h3 class="font-medium">📂 Drive de Arquivos</h3>
-    <p>Aqui você encontra e envia arquivos relacionados aos seus serviços.</p>
-    <p>Clique sobre as pastas ou documentos para abrir ou baixar.</p>
-  </div>
-
-  <div>
-    <h3 class="font-medium">📊 Orçamentos e Mídias</h3>
-    <p>Acompanhe orçamentos, propostas e materiais enviados para você.</p>
-    <p>Tudo fica organizado para facilitar seu trabalho.</p>
-  </div>
-
-  <div>
-    <h3 class="font-medium">🔒 Perfil e Segurança</h3>
-    <p>No menu lateral, você pode acessar seu perfil e sair com segurança quando terminar.</p>
-  </div>
-
-  <div>
-    <h3 class="font-medium">💡 Dica</h3>
-    <p>Use os botões e ícones do painel para navegar facilmente. Tudo foi feito para ser rápido e intuitivo!</p>
-  </div>
-</div>
-
-<br />
-<hr />
-
+        <div
+          class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed text-center space-y-4 max-w-md mx-auto"
+        >
+          <h2
+            class="text-lg font-semibold flex items-center justify-center gap-2"
+          >
+            👋 Bem-vindo ao Painel de Prestador
+          </h2>
+          <p style="font-size: 1.2rem; font-weight: bolder">
+            Este é o seu espaço para acessar e organizar tudo de forma prática.
+          </p>
+        </div>
+        <br />
+        <hr />
 
         <div class="wrapper-button p-5 flex justify-between mt-3">
-        <router-link
-  to="error/blank"
-  class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-4 py-2 transition duration-300 shadow-md hover:shadow-lg"
-  title="Ir para Alert.vue"
->
-  <span>Saiba mais</span>
-  <span class="text-lg">➤</span>
-</router-link>
+          <router-link
+            to="error/blank"
+            class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-4 py-2 transition duration-300 shadow-md hover:shadow-lg"
+            title="Ir para Alert.vue"
+          >
+            <span>Saiba mais</span>
+            <span class="text-lg">➤</span>
+          </router-link>
 
           <!-- <select
             name=""
@@ -345,13 +327,9 @@
           <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
             Dashboard
           </h2>
-          <p class="text-gray-400 font-lexend font-normal">
-           Externo
-          </p>
+          <p class="text-gray-400 font-lexend font-normal">Externo</p>
           <span class="float-right">
-            <h2 class="text-green-500 -mt-12 flex">
-           
-            </h2>
+            <h2 class="text-green-500 -mt-12 flex"></h2>
           </span>
         </div>
         <div class="wrapper-chart mt-5 pr-2 pl-2">
@@ -371,11 +349,12 @@
           <div class="footer p-5">
             <div class="wrapper-button flex justify-between mt-3">
               <router-link
-                to="/component/breadcumb"
-                class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+                to="error/blank"
+                class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-4 py-2 transition duration-300 shadow-md hover:shadow-lg"
                 title="Ir para Alert.vue"
               >
-                ➤
+                <span>Saiba mais</span>
+                <span class="text-lg">➤</span>
               </router-link>
             </div>
           </div>
@@ -402,18 +381,22 @@
             alt="Descrição da imagem"
             class="mb-4 w-full h-auto object-contain rounded"
           />
-          <p style="color: aliceblue; font-weight: bold">Perfil de Acesso Externo</p>
+
+          <p style="color: aliceblue; font-weight: bold">
+            Perfil de Acesso Externo
+          </p>
           <br />
           <hr />
 
           <div class="footer p-5">
             <div class="wrapper-button flex justify-between mt-3">
               <router-link
-                to="/component/breadcumb"
-                class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+                to="error/blank"
+                class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-4 py-2 transition duration-300 shadow-md hover:shadow-lg"
                 title="Ir para Alert.vue"
               >
-                ➤
+                <span>Saiba mais</span>
+                <span class="text-lg">➤</span>
               </router-link>
             </div>
           </div>
@@ -424,7 +407,7 @@
       >
         <div class="head p-5">
           <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
-            Drive 
+            Drive
           </h2>
           <p class="text-gray-400 font-lexend font-normal">Externo</p>
         </div>
@@ -435,18 +418,21 @@
             alt="Descrição da imagem"
             class="mb-4 w-full h-auto object-contain rounded"
           />
-          <p style="color: aliceblue; font-weight: bold">Drive de Acesso Externo</p>
+          <p style="color: aliceblue; font-weight: bold">
+            Drive de Acesso Externo
+          </p>
           <br />
           <hr />
 
           <div class="footer p-5">
             <div class="wrapper-button flex justify-between mt-3">
               <router-link
-                to="/component/breadcumb"
-                class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
+                to="error/blank"
+                class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-4 py-2 transition duration-300 shadow-md hover:shadow-lg"
                 title="Ir para Alert.vue"
               >
-                ➤
+                <span>Saiba mais</span>
+                <span class="text-lg">➤</span>
               </router-link>
             </div>
           </div>

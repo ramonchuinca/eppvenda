@@ -72,7 +72,12 @@
               segunda parte tela de login
             </router-link>
 
- oi
+           <router-link
+                  to="/component/breadcumb"
+                  class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+                >
+                 Drive Para Ambos Os Usos
+                </router-link>
 
           </div>
 
@@ -90,12 +95,7 @@
                   to="/component/badge"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                <router-link
-                  to="/component/breadcumb"
-                  class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
-                >
-                 Drive Para Ambos Os Usos
-                </router-link>
+                
                   DashBord cliente
                 </router-link>
                 <router-link
