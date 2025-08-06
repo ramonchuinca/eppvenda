@@ -59,30 +59,56 @@
               <span class="mr-3 text-xl"><Icon icon="bxs:dashboard" /></span>
               <span class="w-full"> Home </span>
             </router-link>
-            <router-link
-              to="/component/alert"
-              class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
-            >
-              Cliente tela de login
-            </router-link>
-            <router-link
-              to="/component/accordion"
-              class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
-            >
-              segunda parte tela de login
-            </router-link>
 
-           <router-link
-                  to="/component/breadcumb"
+
+
+           <div class="item mt-3">
+            <menu-accordion>
+              <template v-slot:icon>
+                <Icon icon="gg:components" />
+              </template>
+              <template v-slot:title> LOGIN </template>
+              <template v-slot:content>
+              
+                <router-link
+                  to="/component/alert"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >
-                 Drive Para Ambos Os Usos
+                  Tela De Login
                 </router-link>
 
+                <router-link
+                  to="/component/accordion"
+                  class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+                >
+                  Segundo Fator
+                </router-link>
+      
+              </template>
+            </menu-accordion>
+
+
+
+             <menu-accordion>
+              <template v-slot:icon>
+                <Icon icon="gg:components" />
+              </template>
+              <template v-slot:title> DRIVE </template>
+              <template v-slot:content>
+              
+               <router-link
+                      to="/component/breadcumb"
+                      class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                     Como Usar o Drive
+                    </router-link>
+              </template>
+            </menu-accordion>
+
+            
+  
           </div>
-
-
-
+          </div>
 
           <div class="item mt-3">
             <menu-accordion>
