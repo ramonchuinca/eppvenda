@@ -115,7 +115,7 @@
               <template v-slot:icon>
                 <Icon icon="gg:components" />
               </template>
-              <template v-slot:title> Usuario Cliente </template>
+              <template v-slot:title> CLIENTE </template>
               <template v-slot:content>
                 <router-link
                   to="/component/badge"
@@ -168,7 +168,7 @@
               <template v-slot:icon>
                 <Icon icon="ri:pages-fill" />
               </template>
-              <template v-slot:title> Usuario Externo </template>
+              <template v-slot:title> PRESTADORES </template>
               <template v-slot:content>
                 <div class="">
                   <router-link

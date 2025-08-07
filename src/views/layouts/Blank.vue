@@ -9,10 +9,13 @@
     />
 
     <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-  Para acessar o sistema, informe seu <strong>e-mail</strong> e <strong>senha</strong> cadastrados. 
-  Esta tela foi criada para ser simples, segura e fácil de usar, garantindo uma experiência tranquila para todos os usuários.
-  Após o login, você será direcionado para uma <strong>segunda etapa de autenticação</strong>, onde confirmaremos que está tudo certo com suas informações antes de liberar o acesso completo ao sistema.
+  Esta é a <strong>Tela de Acesso Exclusiva para Prestadores de Serviço</strong> da plataforma Pen6. Aqui, você poderá acompanhar arquivos, orçamentos e conteúdos disponibilizados diretamente pela nossa equipe.
+  <br /><br />
+  Para continuar, informe seu <strong>e-mail</strong> e <strong>senha</strong> cadastrados. Em seguida, você passará por uma <strong>etapa de verificação de segurança</strong> para confirmar sua identidade, garantindo a proteção das informações acessadas.
+  <br /><br />
+  Nosso objetivo é oferecer uma interface simples, intuitiva e segura — facilitando sua navegação e interação com os recursos disponíveis no sistema.
 </p>
+
 
     <router-link
       to="/404page"

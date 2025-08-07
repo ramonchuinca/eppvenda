@@ -16,7 +16,7 @@
     </p>
 
    <router-link
-      to="/component/badge"
+      to="/component/breadcumb"
       class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-8 rounded-full transition duration-300"
       title="Ir para a próxima etapa"
     >
