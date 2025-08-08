@@ -102,6 +102,27 @@
                     >
                      Como Usar o Drive
                     </router-link>
+
+                       <router-link
+                      to="/component/uploaddrive"
+                      class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                     Up-load Drive
+                    </router-link>
+
+                       <router-link
+                      to="/component/editardrive"
+                      class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                     Como Editar Arquivo Drive
+                    </router-link>
+
+                       <router-link
+                      to="/component/"
+                      class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                     Como Como Subir Arquivo Drive
+                    </router-link>
               </template>
             </menu-accordion>
 

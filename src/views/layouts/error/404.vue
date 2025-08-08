@@ -7,10 +7,10 @@
       </h2>
       <p class="dark:text-gray-500 text-gray-800">
         Sorry, the page you are looking for
-        {{ this.$route.params.pathMatch[0] }} was not found!
+        
       </p>
       <button
-        @click="this.$router.push('/')"
+       
         class="bg-primary rounded text-white py-3 px-5"
       >
         Return To Dashboard

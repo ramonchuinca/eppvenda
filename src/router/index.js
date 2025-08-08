@@ -23,6 +23,8 @@ import Page404 from "../views/layouts/error/404.vue";
 import Page500 from "../views/layouts/error/500.vue";
 import PageMaintenance from "../views/layouts/error/maintenance.vue";
 import Tables from "../views/tables.vue";
+import Uploaddrive from "@/views/components/uploaddrive.vue";
+import Editardrive from "@/views/components/editardrive.vue";
 
 var appname = "- Manual Usuario ";
 
@@ -111,6 +113,33 @@ const routes = [
     component: ForgotPassword,
     meta: { title: "i Forgot Password" + appname, hideNav: true },
   },
+  
+  {
+    path: "/tables",
+    name: "Tables",
+    component: Tables,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
+
+  {
+    path: "/component/uploaddrive",
+    name: "uploaddrive",
+    component: Uploaddrive,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
+
+  {
+    path: "/component/editardrive",
+    name: "editardrive",
+    component: Editardrive,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
   // layout/error
   // default page 404
   {
@@ -134,14 +163,8 @@ const routes = [
       hideNav: true,
     },
   },
-  {
-    path: "/tables",
-    name: "Tables",
-    component: Tables,
-    meta: {
-      title: "Tables" + appname,
-    },
-  },
+
+
 ];
 
 const router = createRouter({
