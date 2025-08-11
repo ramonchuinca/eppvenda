@@ -25,7 +25,7 @@ import PageMaintenance from "../views/layouts/error/maintenance.vue";
 import Tables from "../views/tables.vue";
 import Uploaddrive from "@/views/components/uploaddrive.vue";
 import Editardrive from "@/views/components/editardrive.vue";
-
+import subirarquivo from "@/views/components/subirarquivo.vue";
 var appname = "- Manual Usuario ";
 
 const routes = [
@@ -140,6 +140,32 @@ const routes = [
       title: "Tables" + appname,
     },
   },
+   
+
+
+  {
+    path: "/component/subirarquivo",
+    name: "subirarquivo",
+    component: subirarquivo,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   // layout/error
   // default page 404
   {
