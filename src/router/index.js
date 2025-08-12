@@ -26,6 +26,9 @@ import Tables from "../views/tables.vue";
 import Uploaddrive from "@/views/components/uploaddrive.vue";
 import Editardrive from "@/views/components/editardrive.vue";
 import subirarquivo from "@/views/components/subirarquivo.vue";
+import DashbordExterno from "@/views/components/DashbordExterno.vue";
+import Perfilexterno from "@/views/components/Perfilexterno.vue";
+import Driveexterno from "@/views/components/Driveexterno.vue";
 var appname = "- Manual Usuario ";
 
 const routes = [
@@ -153,13 +156,34 @@ const routes = [
   },
 
 
+   {
+    path: "/component/Dashbord-externo",
+    name: "Dashbord-externo",
+    component:DashbordExterno,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
 
 
+   {
+    path: "/component/Perfil-externo",
+    name: "Perfil-externo",
+    component:Perfilexterno,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
 
 
-
-
-
+  {
+    path: "/component/Drive-externo",
+    name: "Drive-externo",
+    component:Driveexterno,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
 
 
 

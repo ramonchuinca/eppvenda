@@ -121,7 +121,7 @@
                       to="/component/subirarquivo"
                       class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                     >
-                     Como Como Subir Arquivo Drive
+                     Como Subir Arquivo no Drive
                     </router-link>
               </template>
             </menu-accordion>
@@ -198,23 +198,26 @@
                   >
                     DashBord Externo
                   </router-link>
+
+
                   <menu-accordion>
                     <template v-slot:title>Perfil Acesso Externo</template>
                     <template v-slot:content>
                       <router-link
-                        to="/404page"
+                        to="/component/Dashbord-externo"
                         class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                       >
                         DashBord acesso Externo
                       </router-link>
+
                       <router-link
-                        to="/500"
+                        to="/component/Perfil-externo"
                         class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                       >
                         Perfil Aceso Externo
                       </router-link>
                       <router-link
-                        to="/maintenance"
+                        to="/component/Drive-externo"
                         class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                       >
                         Drive Externo
