@@ -78,6 +78,13 @@
                 </router-link>
 
                 <router-link
+                  to="/component/autenticator"
+                  class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+                >
+                  Autenticator
+                </router-link>
+
+                <router-link
                   to="/component/accordion"
                   class="w-full text-left block rounded-md p-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 >

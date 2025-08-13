@@ -29,6 +29,7 @@ import subirarquivo from "@/views/components/subirarquivo.vue";
 import DashbordExterno from "@/views/components/DashbordExterno.vue";
 import Perfilexterno from "@/views/components/Perfilexterno.vue";
 import Driveexterno from "@/views/components/Driveexterno.vue";
+import Autenticator from "@/views/components/autenticator.vue";
 var appname = "- Manual Usuario ";
 
 const routes = [
@@ -180,6 +181,16 @@ const routes = [
     path: "/component/Drive-externo",
     name: "Drive-externo",
     component:Driveexterno,
+    meta: {
+      title: "Tables" + appname,
+    },
+  },
+
+
+   {
+    path: "/component/autenticator",
+    name: "autenticator",
+    component:Autenticator,
     meta: {
       title: "Tables" + appname,
     },
