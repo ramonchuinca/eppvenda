@@ -22,7 +22,7 @@
         class="inline-block bg-gray-500 hover:bg-gray-600 text-white font-medium py-2 px-8 rounded-full transition duration-300"
         title="Voltar para a etapa anterior"
       >
-        ⬅ Anterior
+         Anterior
       </router-link>
 
    <router-link
@@ -30,7 +30,7 @@
       class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-8 rounded-full transition duration-300"
       title="Ir para a próxima etapa"
     >
-      Próximo ➤
+      Próximo 
     </router-link>
     </div>
   </div>

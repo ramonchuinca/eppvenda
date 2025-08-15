@@ -16,8 +16,15 @@
   Navegue pelo menu lateral para acessar os módulos disponíveis e otimize sua rotina com agilidade e segurança.  
   O sistema foi pensado para ser intuitivo, com uma interface simples e moderna, garantindo uma ótima experiência desde o primeiro acesso.
 </p>
-
-
+<div class="flex justify-center gap-4">
+      <!-- Botão Anterior -->
+      <router-link
+        to="/component/subirarquivo"
+        class="inline-block bg-gray-500 hover:bg-gray-600 text-white font-medium py-2 px-8 rounded-full transition duration-300"
+        title="Voltar para a etapa anterior"
+      >
+         Anterior
+      </router-link>
     <router-link
       to="/component/button"
       class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-8 rounded-full transition duration-300"
@@ -25,6 +32,7 @@
     >
       Próximo 
     </router-link>
+    </div>
   </div>
 </template>
 

@@ -1,42 +1,59 @@
 <template>
-  <div class="max-w-4xl mx-auto p-6 text-center">
-    <h1 class="text-3xl font-semibold mb-6 text-white">Bem Vindo  pagina do Drive</h1>
+<div class="max-w-4xl mx-auto p-6 text-center">
+    <h1 class="text-3xl font-semibold mb-6 text-white">Bem Vindo página do Drive</h1>
 
-    <img 
-      src="@/assets/img/teladrive2.jpeg" 
-      alt="Ilustração do Login" 
-      class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
-    />
+    <div class="space-y-10 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
 
-    <div class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-      📂 <strong>Como fazer upload de arquivo no Drive do sistema</strong>
-      <ul class="list-none mt-4 space-y-3">
-        <li>
-          <span class="mr-2">1️⃣</span>
-          <strong>Acesse o módulo "Drive":</strong> No menu lateral, clique em <strong>Drive</strong> (ícone de pasta roxa). Você já está nessa tela, então pode continuar.
-        </li>
-        <li>
-          <span class="mr-2">2️⃣</span>
-          <strong>Localize o botão ou ícone de upload:</strong> Pode estar na parte superior direita da área do Drive ou dentro da pasta onde deseja subir o arquivo. Geralmente tem o texto <em>"Enviar arquivo"</em>, <em>"Upload"</em> ou um ícone de seta para cima.
-        </li>
-        <li>
-          <span class="mr-2">3️⃣</span>
-          <strong>Escolha o local antes de enviar:</strong> Clique na pasta de destino antes de fazer o upload para que o arquivo seja armazenado no local correto.
-        </li>
-        <li>
-          <span class="mr-2">4️⃣</span>
-          <strong>Selecione o arquivo:</strong> Ao clicar no botão de upload, selecione o arquivo no seu computador e clique em <em>Abrir</em>.
-        </li>
-        <li>
-          <span class="mr-2">5️⃣</span>
-          <strong>Aguarde o envio:</strong> Pode aparecer uma barra de progresso ou uma mensagem de sucesso. Assim que terminar, o arquivo aparecerá na lista.
-        </li>
-        <li>
-          <span class="mr-2">6️⃣</span>
-          <strong>Confirme se o arquivo está visível:</strong> Verifique se ele aparece no local certo e se consegue abrir ou baixar.
-        </li>
-      </ul>
+        <!-- Slide 1 -->
+        <div>
+            <img src="@/assets/img/primeiro-12.png" alt="Tela de abertura com título Google Authenticator" class="rounded-xl shadow-lg mb-4">
+            <p>🎥 <strong>Slide 1 – Abertura:</strong> "Como baixar e instalar o Google Authenticator no celular".<br>
+            <em>Sugestão de narração:</em> Hoje você vai aprender a instalar o Google Authenticator no seu celular de forma rápida e segura.</p>
+        </div>
+
+        <!-- Slide 2 -->
+        <div>
+            <img src="/" alt="Abrindo a Google Play Store ou App Store" class="rounded-xl shadow-lg mb-4">
+            <p><strong>Slide 2 – Abrir a loja de aplicativos:</strong> Passo 1: Abra a loja de aplicativos do seu celular (Google Play Store no Android ou App Store no iPhone).<br>
+            <em>Sugestão de narração:</em> O primeiro passo é abrir a loja de aplicativos. No Android é a Google Play Store, e no iPhone é a App Store.</p>
+        </div>
+
+        <!-- Slide 3 -->
+        <div>
+            <img src="link-da-imagem-slide3.png" alt="Pesquisando Google Authenticator na loja" class="rounded-xl shadow-lg mb-4">
+            <p><strong>Slide 3 – Pesquisar pelo app:</strong> Passo 2: Pesquise por "Google Authenticator".<br>
+            <em>Sugestão de narração:</em> Digite Google Authenticator na busca e localize o aplicativo oficial do Google.</p>
+        </div>
+
+        <!-- Slide 4 -->
+        <div>
+            <img src="link-da-imagem-slide4.png" alt="Botão Instalar ou Obter do Google Authenticator" class="rounded-xl shadow-lg mb-4">
+            <p><strong>Slide 4 – Instalar:</strong> Passo 3: Toque em Instalar (Android) ou Obter (iPhone) e aguarde o download.<br>
+            <em>Sugestão de narração:</em> Clique no botão Instalar e aguarde até o aplicativo ser baixado e instalado.</p>
+        </div>
+
+        <!-- Slide 5 -->
+        <div>
+            <img src="link-da-imagem-slide5.png" alt="Tela inicial do Google Authenticator" class="rounded-xl shadow-lg mb-4">
+            <p><strong>Slide 5 – Abrir o app:</strong> Passo 4: Abra o aplicativo e siga as instruções para configurar.<br>
+            <em>Sugestão de narração:</em> Depois que a instalação terminar, abra o aplicativo e siga as orientações para adicionar suas contas.</p>
+        </div>
+
+        <!-- Slide 6 -->
+        <div>
+            <img src="link-da-imagem-slide6.png" alt="Ícone de segurança e alerta" class="rounded-xl shadow-lg mb-4">
+            <p><strong>Slide 6 – Dica de segurança:</strong> ⚠ Baixe apenas da loja oficial para evitar riscos.<br>
+            <em>Sugestão de narração:</em> Lembre-se: baixe sempre o aplicativo da loja oficial para evitar apps falsos.</p>
+        </div>
+
     </div>
+
+
+
+
+
+
+
 
     <div class="flex justify-center gap-4">
       <!-- Botão Anterior -->
