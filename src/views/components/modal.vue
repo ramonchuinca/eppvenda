@@ -25,8 +25,15 @@
   <br><br>
   Essa estrutura é essencial para gerar relatórios financeiros organizados e facilitar o controle e análise da saúde financeira da empresa.
 </p>
-
-
+  <div class="flex justify-center gap-4">
+      <!-- Botão Anterior -->
+      <router-link
+        to="/component/dropdown"
+        class="inline-block bg-gray-500 hover:bg-gray-600 text-white font-medium py-2 px-8 rounded-full transition duration-300"
+        title="Voltar para a etapa anterior"
+      >
+         Anterior
+      </router-link>
     <router-link
       to="/blank"
       class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-8 rounded-full transition duration-300"
@@ -34,5 +41,6 @@
     >
       Próximo 
     </router-link>
+    </div>
   </div>
 </template>
