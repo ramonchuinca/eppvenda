@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto p-6 text-center">
-    <h1 class="text-3xl font-semibold mb-6 text-white">Bem Vindo  pagina do Drive</h1>
+    <h1 class="text-3xl font-semibold mb-6 text-white">Bem Vindo a Como Subir Arquivo no Drive</h1>
 
     <img 
       src="@/assets/img/teladrive2.jpeg" 
@@ -8,35 +8,36 @@
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
 
- <div class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-  📂 <strong>Como fazer upload de arquivo no Drive do sistema</strong>
+<div class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
+  📂 <strong>Como subir (fazer upload) de um arquivo no Drive do sistema</strong>
   <ul class="list-none mt-4 space-y-3">
     <li>
       <span class="mr-2">1️⃣</span>
-      <strong>Acesse o módulo "Drive":</strong> No menu lateral, clique em <strong>Drive</strong> (ícone de pasta roxa). Você já está nessa tela, então pode continuar.
+      <strong>Acesse o módulo "Drive":</strong> No menu lateral, clique em <strong>Drive</strong> (ícone de pasta roxa).
     </li>
     <li>
       <span class="mr-2">2️⃣</span>
-      <strong>Localize o botão ou ícone de upload:</strong> Pode estar na parte superior direita da área do Drive ou dentro da pasta onde deseja subir o arquivo. Geralmente tem o texto <em>"Enviar arquivo"</em>, <em>"Upload"</em> ou um ícone de seta para cima.
+      <strong>Escolha a pasta de destino:</strong> Clique na pasta onde deseja guardar o arquivo (ex.: <em>teste-teste</em>).
     </li>
     <li>
       <span class="mr-2">3️⃣</span>
-      <strong>Escolha o local antes de enviar:</strong> Clique na pasta de destino antes de fazer o upload para que o arquivo seja armazenado no local correto.
+      <strong>Localize o botão de upload:</strong> Na parte superior direita da tela, procure o botão ou ícone de <em>Upload</em> (geralmente uma seta para cima ou opção “Enviar arquivo”).
     </li>
     <li>
       <span class="mr-2">4️⃣</span>
-      <strong>Selecione o arquivo:</strong> Ao clicar no botão de upload, selecione o arquivo no seu computador e clique em <em>Abrir</em>.
+      <strong>Selecione o arquivo:</strong> Ao clicar no botão de upload, escolha no seu computador o arquivo que deseja enviar e clique em <em>Abrir</em>.
     </li>
     <li>
       <span class="mr-2">5️⃣</span>
-      <strong>Aguarde o envio:</strong> Pode aparecer uma barra de progresso ou uma mensagem de sucesso. Assim que terminar, o arquivo aparecerá na lista.
+      <strong>Acompanhe o envio:</strong> Pode aparecer uma barra de progresso ou mensagem de confirmação. Aguarde até o processo terminar.
     </li>
     <li>
       <span class="mr-2">6️⃣</span>
-      <strong>Confirme se o arquivo está visível:</strong> Verifique se ele aparece no local certo e se consegue abrir ou baixar.
+      <strong>Verifique o resultado:</strong> O arquivo enviado deve aparecer na lista de arquivos da pasta escolhida. Teste abrindo ou baixando para confirmar.
     </li>
   </ul>
 </div>
+
 
        <div class="flex justify-center gap-4">
       <!-- Botão Anterior -->

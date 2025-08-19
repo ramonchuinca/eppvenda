@@ -3,19 +3,35 @@
     <h1 class="text-3xl font-semibold mb-6 text-white">Bem-vindo ao DashBord</h1>
 
     <img 
-      src="@/assets/img/prestador.png" 
+      src="@/assets/img/teladeperfil.jpeg" 
       alt="Ilustração do Login" 
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
 
-   <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-  Seja bem-vindo ao <strong>Pen6.App</strong>, um sistema completo desenvolvido para facilitar a gestão da sua empresa.  
-  Aqui, você encontra funcionalidades essenciais como controle de <strong>empresas</strong>, <strong>usuários</strong>, <strong>orçamentos</strong>, <strong>faturas</strong>, além de ferramentas para 
-  <strong>tarefas</strong>, <strong>scrum diário</strong>, <strong>chat interno</strong>, <strong>drive de arquivos</strong> e muito mais.
+<p class="text-white mb-8 text-lg leading-relaxed">
+  Nesta tela você pode <strong>gerenciar seu perfil de usuário</strong> dentro do <strong>Pen6.App</strong>.  
+  Aqui estão as principais funções disponíveis:
   <br><br>
-  Navegue pelo menu lateral para acessar os módulos disponíveis e otimize sua rotina com agilidade e segurança.  
-  O sistema foi pensado para ser intuitivo, com uma interface simples e moderna, garantindo uma ótima experiência desde o primeiro acesso.
+  <ul class="list-disc ml-6 space-y-2 text-white">
+    <li>
+      <strong>Adicionar ou alterar foto de perfil:</strong> Clique no botão <em>“Adicionar imagem”</em> para enviar uma foto que será exibida no seu perfil.
+    </li>
+    <li>
+      <strong>Editar informações pessoais:</strong> À direita, você encontra seus dados como <em>nome</em>, <em>email</em>, <em>telefone</em>, <em>data de nascimento</em> e <em>CPF</em>.  
+      Atualize os campos quando necessário e clique em <strong>Salvar</strong>.
+    </li>
+    <li>
+      <strong>Minha Bio:</strong> Use o editor de texto para escrever uma breve descrição sobre você, suas funções ou habilidades. É possível aplicar formatações (negrito, itálico, alinhamento, etc.).
+    </li>
+    <li>
+      <strong>Alterar senha:</strong> No final da tela, insira uma nova senha no campo indicado e clique em <strong>Confirmar</strong> para atualizar sua senha de acesso ao sistema.
+    </li>
+    Utilize essa tela sempre que precisar <strong>manter seus dados atualizados</strong> e garantir uma melhor personalização dentro do sistema.
+  </ul>
+  <br>
 </p>
+
+
 
 <div class="flex justify-center gap-4">
       <!-- Botão Anterior -->

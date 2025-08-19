@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto p-6 text-center">
-    <h1 class="text-3xl font-semibold mb-6 text-white">Bem Vindo  pagina do Drive</h1>
+    <h1 class="text-3xl font-semibold mb-6 text-white">Bem Vindo a Como Editar o Drive</h1>
 
     <img 
       src="@/assets/img/teladrive2.jpeg" 
