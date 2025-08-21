@@ -38,7 +38,7 @@
             class="mb-4 w-full h-auto object-contain rounded"
           />
 
-          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+          <div class="p-2 max-w-sm text-gray-800 dark:text-white items-center gap-2">
             <router-link
               to="/component/alert"
               class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
@@ -62,7 +62,7 @@
             class="mb-4 w-full h-auto object-contain rounded"
           />
 
-          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+          <div class="p-2 max-w-sm text-gray-800 dark:text-white flex items-center gap-2">
             <router-link
               to="/component/accordion"
               class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
@@ -86,7 +86,7 @@
             class="mb-4 w-full h-auto object-contain rounded"
           />
 
-          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+          <div class="p-2 max-w-sm text-gray-800 dark:text-white flex items-center gap-2">
             <router-link
               to="/component/badge"
               class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
@@ -109,7 +109,7 @@
             class="mb-4 w-full h-auto object-contain rounded"
           />
 
-          <div class="p-2 max-w-sm text-white flex items-center gap-2">
+          <div class="p-2 max-w-sm text-gray-800 dark:text-white flex items-center gap-2">
             <router-link
               to="/component/breadcumb"
               class="text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-black dark:text-white rounded-full p-2 transition"
