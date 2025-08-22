@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto p-6 text-center">
-    <h1 class="text-3xl font-semibold mb-6 text-white">Bem-vindo ao DashBord</h1>
+    <h1 class="text-3xl font-semibold mb-6 text-white">Bem-vindo ao Perfil Acesso Externo</h1>
 
     <img 
       src="@/assets/img/teladeperfil.jpeg" 
