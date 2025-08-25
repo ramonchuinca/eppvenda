@@ -3,18 +3,21 @@
     <h1 class="text-3xl font-semibold mb-6 text-white">Bem-vindo ao Drive-Externo</h1>
 
     <img 
-      src="@/assets/img/prestador.png" 
+      src="@/assets/img/prestador-1.png" 
       alt="Ilustração do Login" 
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
 
    <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
-  Seja bem-vindo ao <strong>Pen6.App</strong>, um sistema completo desenvolvido para facilitar a gestão da sua empresa.  
-  Aqui, você encontra funcionalidades essenciais como controle de <strong>empresas</strong>, <strong>usuários</strong>, <strong>orçamentos</strong>, <strong>faturas</strong>, além de ferramentas para 
-  <strong>tarefas</strong>, <strong>scrum diário</strong>, <strong>chat interno</strong>, <strong>drive de arquivos</strong> e muito mais.
+
+  A aba Drive é o local onde você pode <strong>armazenar, visualizar e organizar</strong> seus arquivos e pastas dentro do sistema Pen6.App.
   <br><br>
-  Navegue pelo menu lateral para acessar os módulos disponíveis e otimize sua rotina com agilidade e segurança.  
-  O sistema foi pensado para ser intuitivo, com uma interface simples e moderna, garantindo uma ótima experiência desde o primeiro acesso.
+  ✅ <strong>O que você pode fazer aqui:</strong><br>
+  📂 Criar pastas para separar e organizar documentos por tema, projeto ou cliente.<br>
+  📄 Visualizar arquivos que foram enviados para o sistema.<br>
+  🔍 Pesquisar por arquivos rapidamente.<br>
+  📥 Fazer upload de novos arquivos (dependendo das permissões).<br>
+  📑 Ver detalhes como nome, tipo de arquivo e quem adicionou.
 </p>
 
 
