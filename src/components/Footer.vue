@@ -11,10 +11,12 @@
         <router-link to="#">Contact</router-link>
       </div>
     </div>
-    <footer class="w-full box-border p-5 mt-3 text-center">
-      <p class="text-sm dark:text-gray-400">
-        Windzo Made by ❤️ Mohammad Sahrullah
-      </p>
-    </footer>
+ <footer class="w-full box-border p-5 mt-3 text-center flex items-center justify-center gap-2">
+  <img src="@/assets/logo/banner-shape-1-1.png" alt="Manualzinho" class="w-6 h-6" />
+  <p class="text-sm dark:text-gray-400">
+    Seu guia prático no <strong>Pen6.App</strong> 🚀
+  </p>
+</footer>
+
   </div>
 </template>
