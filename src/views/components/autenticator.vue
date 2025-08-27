@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-3xl mx-auto p-6 text-center">
-    <h1 class="text-3xl font-semibold mb-6 text-white">
+    <h1 class="text-3xl font-semibold mb-6 text-gray-600">
       Bem Vindo página do Authenticator
     </h1>
 
@@ -12,7 +12,7 @@
           alt="Tela de abertura Google Authenticator"
           class="rounded-xl shadow-lg mx-auto mb-4"
         />
-        <p class="text-gray-300">
+        <p class="text-gray-500">
           🎥 <strong>Passo 1 – Abertura:</strong> "Como baixar e instalar o
           Google Authenticator no celular".<br />
           <em>Sugestão:</em> Hoje você vai aprender a instalar o Google
@@ -27,7 +27,7 @@
           alt="Abrindo a Google Play Store ou App Store"
           class="rounded-xl shadow-lg mx-auto mb-4"
         />
-        <p class="text-gray-300">
+        <p class="text-gray-500">
           <strong>Passo 2 – Abrir a loja:</strong> Abra a loja de aplicativos do
           seu celular (Google Play Store ou App Store).<br />
           <em>Sugestão:</em> No Android é a Play Store, no iPhone é a App Store.
@@ -41,7 +41,7 @@
           alt="Pesquisando Google Authenticator"
           class="rounded-xl shadow-lg mx-auto mb-4"
         />
-        <p class="text-gray-300">
+        <p class="text-gray-500">
           <strong>Passo 3 – Pesquisar:</strong> Procure por "Google
           Authenticator".<br />
           <em>Sugestão:</em> Digite o nome na busca e escolha o app oficial do
@@ -56,7 +56,7 @@
           alt="Botão Instalar ou Obter"
           class="rounded-xl shadow-lg mx-auto mb-4"
         />
-        <p class="text-gray-300">
+        <p class="text-gray-500">
           <strong>Passo 4 – Instalar:</strong> Toque em Instalar (Android) ou
           Obter (iPhone).<br />
           <em>Sugestão:</em> Aguarde até o aplicativo ser baixado e instalado.
@@ -70,7 +70,7 @@
           alt="Tela inicial do Google Authenticator"
           class="rounded-xl shadow-lg mx-auto mb-4"
         />
-        <p class="text-gray-300">
+        <p class="text-gray-500">
           <strong>Passo 5 – Abrir o app:</strong> Abra o aplicativo e siga as
           instruções.<br />
           <em>Sugestão:</em> Configure suas contas no app.
@@ -84,7 +84,7 @@
           alt="Ícone de segurança"
           class="rounded-xl shadow-lg mx-auto mb-4"
         />
-        <p class="text-gray-300">
+        <p class="text-gray-500">
           <strong>Passo 6 – Segurança:</strong> ⚠ Baixe apenas da loja oficial.<br />
           <em>Sugestão:</em> Evite apps falsos baixando sempre das lojas
           oficiais.

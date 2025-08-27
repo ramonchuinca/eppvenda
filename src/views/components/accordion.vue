@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto p-6 text-center">
-    <h1 class="text-3xl font-semibold mb-6 text-white">Segunda Etapa de Autenticação</h1>
+    <h1 class="text-3xl font-semibold mb-6 text-gray-600">Segunda Etapa de Autenticação</h1>
 
 
     
