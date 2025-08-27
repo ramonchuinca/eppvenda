@@ -14,11 +14,11 @@
           </h1>
         </div>
         <div class="flex gap-2">
-          <button
+          <!-- <button
             class="bg-primary border flex gap-2 text-white hover:bg-primary/80 dark:border-gray-700 rounded py-3 px-5"
           >
             <span class="icon text-2xl"><Icon icon="ic:twotone-plus" /></span>
-          </button>
+          </button> -->
         </div>
       </div>
     </div>
@@ -324,7 +324,7 @@
         class="mt-2 bg-white dark:bg-gray-800 p-0 w-full rounded-md box-border border dark:border-gray-700"
       >
         <div class="head p-5">
-          <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
+          <h2 class="font-bold text-lg text-gray-800 dark:text-gray-400">
             Dashboard
           </h2>
           <p class="text-gray-400 font-lexend font-normal">Externo</p>
@@ -339,7 +339,7 @@
             class="mb-4 w-full h-auto object-contain rounded"
           />
 
-          <p style="color: aliceblue; font-weight: bold">
+          <p class="text-gray-400 font-lexend font-normal">
             DashBord acesso Externo
           </p>
 
@@ -382,7 +382,7 @@
             class="mb-4 w-full h-auto object-contain rounded"
           />
 
-          <p style="color: aliceblue; font-weight: bold">
+          <p class="text-gray-400 font-lexend font-normal">
             Perfil de Acesso Externo
           </p>
           <br />
@@ -418,7 +418,7 @@
             alt="Descrição da imagem"
             class="mb-4 w-full h-auto object-contain rounded"
           />
-          <p style="color: aliceblue; font-weight: bold">
+          <p class="text-gray-400 font-lexend font-normal">
             Drive de Acesso Externo
           </p>
           <br />
