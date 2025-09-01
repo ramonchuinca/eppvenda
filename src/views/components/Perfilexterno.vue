@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto p-6 text-center">
-    <h1 class="text-3xl font-semibold mb-6 text-white">Bem-vindo ao Perfil Acesso Externo</h1>
+    <h1 class="text-3xl font-semibold mb-6 text-gray-700">Bem-vindo ao Perfil Acesso Externo</h1>
 
     <img 
       src="@/assets/img/teladeperfil.jpeg" 
@@ -8,11 +8,11 @@
       class="w-full h-auto rounded-lg shadow-md mb-8 object-cover"
     />
 
-<p class="text-white mb-8 text-lg leading-relaxed">
+<p class="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
   Nesta tela você pode <strong>gerenciar seu perfil de usuário</strong> dentro do <strong>Pen6.App</strong>.  
   Aqui estão as principais funções disponíveis:
   <br><br>
-  <ul class="list-disc ml-6 space-y-2 text-white">
+  <ul class="list-disc ml-6 space-y-2 text-gray-700 dark:text-gray-300">
     <li>
       <strong>Adicionar ou alterar foto de perfil:</strong> Clique no botão <em>“Adicionar imagem”</em> para enviar uma foto que será exibida no seu perfil.
     </li>
